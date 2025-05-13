@@ -4,6 +4,4 @@ version: 0.1.0
 author: Alsun
 display_name: Alsun WebRTC Client
 homepage: https://github.com/abdurrhmaan/alsun-webrtc-client
-description: >
-  A WebRTC client for Alsun
-plugin_format_version: 0
+
