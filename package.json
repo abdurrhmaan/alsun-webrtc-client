@@ -11,3 +11,34 @@
     "test": "jest --coverage"
   }
 }
+{
+  "name": "alsun-webrtc-client",
+  "version": "0.1.0",
+  "description": "WebRTC client for Alsun",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r index.html styles.css img src dist/",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdurrhmaan/alsun-webrtc-client.git"
+  },
+  "keywords": [
+    "webrtc",
+    "wazo",
+    "voip"
+  ],
+  "author": "Alsun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdurrhmaan/alsun-webrtc-client/issues"
+  },
+  "homepage": "https://github.com/abdurrhmaan/alsun-webrtc-client",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^27.0.4"
+  }
+}
